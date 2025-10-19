@@ -4,9 +4,6 @@
         <meta charset="utf-8">
         <title>Quantam Entanglement of Coffee Molecules</title>
         <style>
-            body  {
-            
-            }
             h1 {
                 font-size: 1.8em;
                 margin: 0 0 8px;
@@ -84,29 +81,31 @@
                 Quantam Group (QG) <br> <span style="display:block; text-indent:40px;">Quantum-entangled coffee with verified entanglement coefficients</span>
                 Placebo Group (PG) <br> <span style="display:block; text-indent:40px;">Decaffeinated coffee with simulated quantum properties</span>
                 </p>
-
-                <p>
-                    <span style="font-size:0.8em; margin-right:5px;">&#9660;</span>
-                    QED-3000 technical specs & example commands
-                </p>
-                <p><strong>Firmware:</strong> QED-3000 v2.1.3 
-                    <br> 
-                    <strong>Magnetic confienment:</strong> 0.9 T active-field stabilizer
-                    <br>
-                    <strong> Photon source:</strong> Helium-Neon laser, λ = 632.8 nm, power 5 mW
-                </p>
-                <p><strong>Example replicate command (experimental automation):</strong></p>
-                <p style="font-family: 'Courier New', Courier, monospace; margin-left: 20px;">
-                    ./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json
-                </p>
-                <p style="margin-left: 20px;">
-                    Use <span style="font-family: 'Courier New', Courier, monospace;">Ctrl+C</span> to cancel in the terminal if you need to abort the run.
-                </p>
-                <img src="starbucks.jpg" alt="Starbucks" style="display:block; width:500px; margin-left:40px;">
-                <p style="margin-left:40px;">
-                    <strong>Figure 1:</strong> Schematic representation of the quantum coffee preparation apparatus. The entanglement<br>
-                    chamber (center) maintains coherence through magnetic confinement.
-                </p>
+                <details>
+                    <summary style="cursor: pointer;">
+                      QED-3000 technical specs & example commands
+                    </summary>           
+                    <p><strong>Firmware:</strong> QED-3000 v2.1.3</p>
+                    <p><strong>Magnetic confinement:</strong> 0.9 T active-field stabilizer</p>
+                    <p><strong>Photon source:</strong> Helium-Neon laser, λ = 632.8 nm, power 5 mW</p>
+                  
+                    <p><strong>Example replicate command (experimental automation):</strong></p>
+                    <p style="font-family: 'Courier New', Courier, monospace; margin-left: 20px;">
+                      ./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json
+                    </p>
+                  
+                    <p style="margin-left: 20px;">
+                      Use <span style="font-family: 'Courier New', Courier, monospace;">Ctrl+C</span> to cancel in the terminal if you need to abort the run.
+                    </p>
+                  
+                    <img src="starbucks.jpg" alt="Starbucks" style="display:block; width:400px; height:300px; margin-left:40px;">
+                  
+                    <p style="margin-left:40px;">
+                      <strong>Figure 1:</strong> Schematic representation of the quantum coffee preparation apparatus. The entanglement<br>
+                      chamber (center) maintains coherence through magnetic confinement.
+                    </p>
+                  </details>
+                  <br>
                 <h1>3. Results</h1>
                 <br>
                 <h2>3.1 Productivity Metrics</h2>
@@ -146,10 +145,62 @@
                         <td style="padding: 6px 8px;">&lt;0.001</td>
                     </tbody>
                   </table>
+                  <br>
                   <h2>Temporal Analysis</h2>
                   <p>The quantum entanglement effect showed remarkable persistence throughout the workday. Peak productivity occurred
                     at 10:47 AM, with sustained effects until 4:23 PM.</p>
-                
+
+                <h1>4. Dicussion</h1>
+                <p>Our findings support the hypothesis that quantum entanglement can be maintained in biological systems at room<br>
+                    temperature, contrary to conventional wisdom. The mechanism appears to involve resonance between caffeine<br>
+                    molecules and neural microtubules.</p>
+                <h2> Note on Safety</h2>
+                <p>No adverse effects were observed during the study period. However, three participants reported experiencing<br>
+                    "temporal displacement sensations" which resolved spontaneously.</p>
+                <h1>5. Conclusions</h1>
+                <p>This study demonstrates that quantum-entangled coffee represents a viable approach to enhancing workplace
+                    productivity. Key findings include:<br>
+                    <ul>
+                        <li>Quantum coherence can be maintained in coffee for up to 5 minutes post-brewing</li>
+                        <li>Entangled caffeine molecules produce measurable improvements in cognitive function</li>
+                        <li>The Afternoon Paradox can be overcome through quantum mechanical principles</li>
+                    </ul>
+                    Future work will explore the possibility of quantum tea and investigate whether decaf coffee exists in a state of
+                    quantum superposition until observed.</p>
+                <h1>Refrences</h1>
+                <ol>
+                    <li>Smith, J. "A Brief History of Caffeine Addiction."<em>Journal of Procrastination Studies</em>, vol. 42, 2020, pp. 123-145.</li>
+                    <li> Johnson, K., et al. "Quantum Superposition in Beverage Sciences." <em>Physical Review Coffee</em>, vol. 13, 2024, pp.456-478.</li>
+                    <li>Chen, L. "Temporal Mechanics of Office Productivity." <em>Annals of Corporate Physics</em>, vol. 7, 2023, pp. 89-101.</li>
+                </ol>
+                <form>
+                    <fieldset>
+                        <legend>Quick Feedback</legend>
+                        <label for="fave-coffee">Favorite Coffee:
+                            <input type="text" id="fave-coffee" placeholder="Enter Your First Name" required>
+                            <br>
+                        </label>
+        
+                        <label for="cool-sound-keyword">Coolest-sound keyword:
+                            <input type="text" id="cool-sound-keyword" placeholder="Type or choose.." required>
+                            <br>
+                        </label>
+        
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                    
+                </form>
         </main>
+        <hr>
+        
+        <footer>
+            <p><em>Correspondence should be directed to:</em><br>
+            <em>Dr. Wilhelmina Quark</em><br>
+            <em>Department of Applied Caffeination, Globocorp Research Institute</em><br>
+            <em>42 Quantum Way, New New York, NY 10001</em>
+            <br>
+            <a href="mailto:wquark@globocorp.com"><em>wquark@globocorp.com</em></a>
+            </p>
+          </footer>
     </body>
 </html>
