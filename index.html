@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Quantam Entanglement of Coffee Molecules</title>
+        <title>Scientific Typography - Step 1: Semantic Structure</title>
         <style>
             h1 {
                 font-size: 1.8em;
@@ -177,15 +177,38 @@
                     <fieldset>
                         <legend>Quick Feedback</legend>
                         <label for="fave-coffee">Favorite Coffee:
-                            <input type="text" id="fave-coffee" placeholder="Enter Your First Name" required>
-                            <br>
+                            <select id="fave-coffee" required>
+                                <optgroup label="Common">
+                                    <option value="latte">Latte</option>
+                                    <option value="espresso">Espresso</option>
+                                    <option value="americano">Americano</option>
+                                    <option value="mocha">Mocha</option>
+                                    <option value="cold-brew">Cold Brew</option>
+                                </optgroup>
+
+                                <optgroup label="niche">
+                                    <option value="robusta">Robusta</option>
+                                    <option value="arabica">Arabica</option>
+                                    <option value="horchata-latte">Horchata Latte</option>
+                                    <option value="espresso-martini">Espresso Martini</option>
+                                    <option value="turkish-coffee">Turkish Coffee</option>
+                                </optgroup>                              
+                        </select>
+                        <br>
+                        <br>
+                        <label for="cool-keyword">
+                            Coolest-sounding Keyword:
+                            <input list="keywords" id="cool-keyword" placeholder="Type or Choose..." required>
                         </label>
-        
-                        <label for="cool-sound-keyword">Coolest-sound keyword:
-                            <input type="text" id="cool-sound-keyword" placeholder="Type or choose.." required>
-                            <br>
-                        </label>
-        
+                        <datalist id="keywords">
+                            <option value="quantum">Quantum</option>
+                            <option value="fusion">Fusion</option>
+                            <option value="gigapascals">Gigapascals</option>
+                            <option value="photon">Photon</option>
+                            <option value="decaffeinated">Decaffeinated</option>
+                        </datalist>
+                        <br>
+                        <br>
                         <button type="submit">Submit</button>
                     </fieldset>
                     
@@ -201,6 +224,7 @@
             <br>
             <a href="mailto:wquark@globocorp.com"><em>wquark@globocorp.com</em></a>
             </p>
+            <small>© 2025 Globocorp Research Institute. This research was funded by Grant #QC-2025-42 from the Department of Applied Caffeination.</small>
           </footer>
     </body>
 </html>
